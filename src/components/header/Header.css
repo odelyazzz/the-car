@@ -1,34 +1,215 @@
-
-/* Шапка */
+/* Основные стили для шапки */
 .header_up {
-    display: flex;  
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 28px;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-.header_up ul {
-    line-height: 19px;
-    font-size: 16px;
+.header_logo {
+    transition: all 0.3s ease;
+}
+
+
+.header_up .header_ul ul {
     display: flex;
-    column-gap: 50px;
+    gap: 50px; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+.header_up .header_ul ul li {
+    font-size: 16px;
+    line-height: 19px;
+}
 
-.header_up ul li a{
-color: black;}
+.header_up .header_ul ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+  /* Телефоны и социальные иконки на больших экранах */
+.header_telephone {
+    display: flex;
+    gap: 15px;
+}
+
+.header_telephone a {
+    color: black;
+    text-decoration: none;
 }
 
 .header_media_logo {
-    column-gap: 12px;
     display: flex;
+    gap: 12px;
 }
 
-.header_telephone {
+.header_media_logo img {
+    width: 30px; /* Размер иконок */
+    height: 30px;
+}
+
+  /* Бургер-меню для мобильных устройств */
+.header_burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 28px; /* по высоте шапки */
+    z-index: 11;
+}
+
+.header_burger .burger-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+  /* Мобильное меню */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 15;
+    transition: left 0.3s ease;
+}
+
+.mobile-menu.active {
+    display: block;
+    left: 0;
+}
+
+.menu-content {
+    padding: 20px;
     display: flex;
-    column-gap: 12px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-content ul li {
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: left;
+    color: #333;
+}
+
+.menu-content ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-content ul li a:hover {
+    color: #007BFF;
+}
+
+.close-menu {
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.mobile-media-logo {
+    display: flex;
+    gap: 12px;
+}
+
+.mobile-telephone {
+    display: flex;
+    gap: 12px;
 }
 
 
+@media (max-width: 1120px) {
+    .header_up {
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .header_media_logo,
+    .header_telephone {
+        display: none; 
+    }
+
+    .header_burger {
+        display: flex;
+    }
+
+    .header_logo {
+        width: 100px;
+    }
+
+    /* Показ бургер-меню */
+    .mobile-menu {
+        width: 100%;
+        left: 0;
+    }
+
+
+    .header_ul {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1121px) {
+    .header_up {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header_media_logo,
+    .header_telephone {
+        display: flex; 
+    }
+
+    
+    .header_up .header_ul {
+        display: flex;
+    }
+
+    .header_up .header_ul ul {
+        display: flex; 
+        gap: 50px; 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+.header_up .header_ul ul li {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header_up .header_ul ul li a {
+    color: black;
+    text-decoration: none;
+    }
+}
 /* Нижняя часть шапки */
 
 .header_bottom {

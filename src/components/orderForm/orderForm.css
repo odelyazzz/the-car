@@ -1,0 +1,94 @@
+.order_form {
+  padding: 50px 2%;
+  text-align: center;
+}
+
+.order_form form {
+  padding-top: 20px;
+}
+
+.order_title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.form_group {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.form_group label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form_group input {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+}
+
+.dropdown-selected {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-options {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  z-index: 1000;
+  width: 100%;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-option:hover {
+  background-color: #f4f6f8;
+}
+
+.cost-display {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.submit_button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_button:hover {
+  background-color: #0056b3;
+}

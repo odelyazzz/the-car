@@ -1,0 +1,29 @@
+.swipe-hint {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.swipe-hint img {
+  width: 30px;
+  height: unset;
+  animation: rotate 2s infinite linear;
+}
+
+.swipe-hint p {
+  font-weight: 500;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(30deg);
+  }
+  10% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}

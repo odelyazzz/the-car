@@ -1,0 +1,99 @@
+@media (max-width: 1425px) {
+    /* секция 1 шапка*/
+
+    
+
+    /* секция 2 */
+
+    .header_bottom {
+        display: grid;
+        place-items: center;
+    }
+
+    .header_bottom_img {
+        padding-top: 50px;
+    }
+
+    .header_bottom_text {
+        text-align: center;
+    }
+
+    /* секцию 3 */
+    .card_button h4, p{
+        font-size: clamp(1rem, 0.5rem + 1vw, 2rem);
+    }
+
+    .card_text h2 {
+        font-size: clamp(1rem, 0.539rem + 2.456vw, 2.75rem);
+    }
+
+    .card_text p {
+        font-size: clamp(1rem, 0.5rem + 1vw, 2rem);
+    }
+    
+    .card_button_main {
+        display: grid;
+        place-items: center;
+    
+    }
+
+    .card_button {
+        width: 500px;
+    }
+
+    /* секция 4  */
+
+    .aboutUs {
+        display: grid;
+    }
+
+    .aboutUs_main {
+        padding: 50px 50px 50px 50px;
+        margin: 0;
+    }
+
+    .aboutUs_img {
+        width: 100%;
+    }
+
+    /* секцию 5  */
+
+    .section4_cardall {
+        display: grid;
+        place-items: center;
+    }
+
+    .section4_card1, .section4_card2,
+    .section4_card3 {
+        margin-bottom: 20px;
+        width: 500px;
+    }
+    
+
+    .s img {
+        width: 100%;
+    }
+
+    /* секция 6  */
+
+    .baner_main {
+        display: block;
+        text-align: center;
+    }
+
+    .baner_img {
+        padding-top: 30px;
+    }
+
+    /* секцию 7  */
+
+    .review_link {
+        display: grid;
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
+    .review_link a {
+        margin-bottom: 35px;
+    }
+}

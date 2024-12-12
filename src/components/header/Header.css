@@ -1,0 +1,58 @@
+
+/* Шапка */
+.header_up {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.header_up ul {
+    line-height: 19px;
+    font-size: 16px;
+    display: flex;
+    column-gap: 50px;
+
+
+.header_up ul li a{
+color: black;}
+}
+
+.header_media_logo {
+    column-gap: 12px;
+    display: flex;
+}
+
+.header_telephone {
+    display: flex;
+    column-gap: 12px;
+}
+
+
+/* Нижняя часть шапки */
+
+.header_bottom {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header_bottom_text {
+    max-width: 650px;
+}
+
+.header_bottom_text h1{
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 62px;
+}
+
+.header_bottom_text p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 20px;
+    padding-bottom: 38px;
+}
+

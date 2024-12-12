@@ -1,0 +1,58 @@
+.aboutUs {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.aboutUs_main {
+    margin: 0 10% 0 5%;
+}
+
+.aboutUs_text h2 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 54px;
+    padding-bottom: 12px;
+}
+
+.aboutUs_text p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 24px;
+    
+}
+
+.aboutUs_content {
+
+}
+
+.aboutUs_content li {
+    padding-bottom: 14px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.aboutUs_content p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+.aboutUs_border {
+    padding-bottom: 32px;
+
+}
+
+.aboutUs_bordertext p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.aboutUs_img {
+    width: 908px;
+    height: 600px;
+}

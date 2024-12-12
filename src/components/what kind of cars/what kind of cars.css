@@ -1,0 +1,95 @@
+.section4 {
+    background-color: #F4F6F8;
+}
+
+.section4_all {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.section4_text {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.section4_text h2{
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 54px;
+    padding: 100px;
+    padding-bottom: 20px;
+}
+
+.section4_text p{
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+.section4_cardall {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+.section4_card1, .section4_card2, .section4_card3 {
+    padding: 24px;
+}
+
+.section4_card1 h3, .section4_card2 h3, .section4_card3 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+
+}
+
+.card_cars_info p {
+    padding-bottom: 16px;
+}
+
+.card_cars_info1 {
+    float: left;
+    
+}
+
+.card_cars_info2 {
+    text-align: right;
+    font-weight: bold;
+}
+
+.s {
+    min-width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform 0.7s ease-in-out;
+
+}
+
+.s:hover {
+    transform: scale(1.04);
+}
+
+.s img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 10%;
+}
+
+/* текст в карточках */
+
+.textinfo {
+    opacity: .5;
+}
+
+.textinfo1 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FA002C;
+}
+

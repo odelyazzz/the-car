@@ -1,0 +1,62 @@
+.team_main {
+  background-color: #F4F6F8;
+  padding: 50px 2%;
+  text-align: center;
+}
+
+.team_title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 40px;
+}
+
+.team_members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team_member {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team_member:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.team_avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto 15px auto;
+}
+
+.team_name {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team_role {
+  font-weight: 500;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.team_description {
+  font-size: 14px;
+  color: #333;
+}

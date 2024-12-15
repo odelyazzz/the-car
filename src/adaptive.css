@@ -97,3 +97,14 @@
         margin-bottom: 35px;
     }
 }
+
+@media (max-width: 728px) {
+    .card_button {
+        width: 300px;
+    }
+
+    .s {
+        min-width: 300px;
+        width: 300px;
+    }
+}

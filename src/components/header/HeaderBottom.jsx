@@ -10,7 +10,7 @@ export default function HeaderBottom() {
                 <Button scrollTo="order_form" width="312px" height="64px"></Button>
             </div>
             <div className='header_bottom_img'>
-                <img src="/img/logo cars.svg" alt="#"/>
+                <img src="/the-car/img/logo cars.svg" alt="#"/>
             </div>
             
         </div>

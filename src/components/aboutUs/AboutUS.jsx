@@ -12,15 +12,15 @@ export default function AboutUs () {
                 </div>
                 <ul className="aboutUs_content">
                     <li>
-                        <img src="/img/lebel cars 1.svg" alt="#" />
+                        <img src="/the-car/img/lebel cars 1.svg" alt="#" />
                         <p>Работаем без посредников</p>
                     </li>
                     <li>
-                        <img src="/img/label cars 2.svg" alt="#" />
+                        <img src="/the-car/img/label cars 2.svg" alt="#" />
                         <p>Успешный опыт 10 лет</p>
                     </li>
                     <li>
-                        <img src="/img/lebel cars 3.svg" alt="#" />
+                        <img src="/the-car/img/lebel cars 3.svg" alt="#" />
                         <p>Отлаженная логистика</p>
                     </li>
                 </ul>

@@ -7,25 +7,25 @@ const Team = () => {
       name: 'Артём Карлюка',
       role: 'Тимлид',
       description: 'Отвечает за координацию команды и принятие ключевых решений.',
-      avatar: '/avatars/1.jpg',
+      avatar: '/the-car/avatars/1.jpg',
     },
     {
       name: 'Ярослав Биленко',
       role: 'Фронтенд-разработчик',
       description: 'Создает красивые и удобные интерфейсы для пользователей.',
-      avatar: '/avatars/2.jpg',
+      avatar: '/the-car/avatars/2.jpg',
     },
     {
       name: 'Денис Саенко',
       role: 'Копирайтер',
       description: 'Пишет тексты, которые привлекают внимание и удерживают читателя.',
-      avatar: '/avatars/3.jpg',
+      avatar: '/the-car/avatars/3.jpg',
     },
     {
       name: 'Иван Довганич',
       role: 'Копирайтер',
       description: 'Занимается созданием контента и редактированием материалов.',
-      avatar: '/avatars/4.jpg',
+      avatar: '/the-car/avatars/4.jpg',
     },
   ];
 

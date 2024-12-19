@@ -11,7 +11,7 @@ export default function BanerOne () {
                 и наши услуги.</p>
                 <Button scrollTo="order_form" width="240px" height="56px"></Button>
             </div>
-            <img className='baner_img' src="src\img\baner cars.png" alt="baner cars" />
+            <img className='baner_img' src="/the-car/img/baner_cars.png" alt="baner cars" />
         </div>
     )
 }

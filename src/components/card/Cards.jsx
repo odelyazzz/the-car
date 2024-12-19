@@ -14,17 +14,17 @@ export default function Card() {
                 <div className='card_button'>
                     <h4>С пробегом</h4>
                     <p>Предлагаем купить автомобиль дешевле до 60%, от рыночной цены на Авито и Авто.ру</p>
-                    <img src="/the-car/img/Image card 1.svg" alt="card" />
+                    <img src="/the-car/img/Image_card_1.svg" alt="card" />
                 </div>
                 <div className='card_button'>
                     <h4>Новые</h4>
                     <p>Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной ценына Авито и Авто.ру</p>
-                    <img src="/the-car/img/Image card 2.svg" alt="card" />
+                    <img src="/the-car/img/Image_card_2.svg" alt="card" />
                 </div>
                 <div className='card_button'>
                     <h4>Под ваш бюджет</h4>
                     <p>Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной ценына Авито и Авто.ру</p>
-                    <img src="/the-car/img/Image card 3.svg" alt="card" />
+                    <img src="/the-car/img/Image_card_3.svg" alt="card" />
                 </div>
             </div>
         </div>

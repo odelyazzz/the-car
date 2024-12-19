@@ -8,27 +8,27 @@ export default function Review () {
     {
       id: 1,
       link: 'https://www.youtube.com/watch?v=Rls3t1VTcXg',
-      image: 'src/img/Review cars 1.jpg'
+      image: 'src/img/Review_cars_1.jpg'
     },
     {
       id: 2,
       link: 'https://www.youtube.com/watch?v=j_9UETcDVw4',
-      image: 'src/img/Review cars 2.jpg'
+      image: 'src/img/Review_cars_2.jpg'
     },
     {
       id: 3,
       link: 'https://www.youtube.com/watch?v=DfbuaqsoSLo',
-      image: 'src/img/Review cars 3.jpg'
+      image: 'src/img/Review_cars_3.jpg'
     },
     {
       id: 4,
       link: 'https://www.youtube.com/watch?v=vLs2pAAdf8Y',
-      image: 'src/img/Review cars 4.jpg'
+      image: 'src/img/Review_cars_4.jpg'
     },
     {
       id: 5,
       link: 'https://www.youtube.com/watch?v=NZTsx13WcEk',
-      image: 'src/img/Review cars 5.jpg'
+      image: 'src/img/Review_cars_5.jpg'
     },
   ]
 

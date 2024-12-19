@@ -12,15 +12,15 @@ export default function AboutUs () {
                 </div>
                 <ul className="aboutUs_content">
                     <li>
-                        <img src="/the-car/img/lebel cars 1.svg" alt="#" />
+                        <img src="/the-car/img/lebel_cars_1.svg" alt="#" />
                         <p>Работаем без посредников</p>
                     </li>
                     <li>
-                        <img src="/the-car/img/label cars 2.svg" alt="#" />
+                        <img src="/the-car/img/label_cars_2.svg" alt="#" />
                         <p>Успешный опыт 10 лет</p>
                     </li>
                     <li>
-                        <img src="/the-car/img/lebel cars 3.svg" alt="#" />
+                        <img src="/the-car/img/lebel_cars_3.svg" alt="#" />
                         <p>Отлаженная логистика</p>
                     </li>
                 </ul>
@@ -30,7 +30,7 @@ export default function AboutUs () {
                 </div>
                 <Button scrollTo="order_form" width="235px" height="56px"></Button>
             </div>
-            <img className="aboutUs_img" src="../../../public/img/about us.png" alt="aboutus" />
+            <img className="aboutUs_img" src="../../../public/img/about_us.png" alt="aboutus" />
             
             
         </div>

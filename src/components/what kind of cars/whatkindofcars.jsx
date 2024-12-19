@@ -5,7 +5,7 @@ export default function WhatKindOfCars () {
     const cars = [
         {
             id: 1,
-            image: "src/img/WhatKindOfCars 1.png",
+            image: "src/img/WhatKindOfCars_1.png",
             model: "Toyota RAV4 2022",
             mileage: "5 700 км",
             engine: "2.0",
@@ -16,7 +16,7 @@ export default function WhatKindOfCars () {
         },
         {
             id: 2,
-            image: "src/img/WhatKindOfCars 2.png",
+            image: "src/img/WhatKindOfCars_2.png",
             model: "Audi Q5 2021",
             mileage: "5 700 км",
             engine: "2.0",
@@ -27,7 +27,7 @@ export default function WhatKindOfCars () {
         },
         {
             id: 3,
-            image: "src/img/WhatKindOfCars 3.png",
+            image: "src/img/WhatKindOfCars_3.png",
             model: "Honda CR-V 2021",
             mileage: "5 700 км",
             engine: "2.0",

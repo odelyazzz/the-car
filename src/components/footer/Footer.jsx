@@ -15,9 +15,9 @@ export default function Footer() {
             </ul>
           </div>
           <div className="footer_media_logo">
-            <a href="#"><img src="src/img/social media logo 1.svg" alt="telegram"/></a>
-            <a href="#"><img src="src/img/social media logo 2.svg" alt="whatsapp"/></a>
-            <a href="#"><img src="src/img/social media logo 3.svg" alt="youtube" /></a>
+            <a href="#"><img src="../../../public/img/social media logo 1.svg" alt="telegram"/></a>
+            <a href="#"><img src="../../../public/img/social media logo 2.svg" alt="whatsapp"/></a>
+            <a href="#"><img src="../../../public/img/social media logo 3.svg" alt="youtube" /></a>
           </div>
           <div className="footer_telephone">
             <a href="tel:+78352675252">+7 (8352) 67-52-52</a>

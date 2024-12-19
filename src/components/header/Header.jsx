@@ -12,7 +12,7 @@ export default function Header() {
     <header>
       {/* Шапка с элементами меню, видимая на больших экранах */}
       <div className={`header_up section ${isMenuOpen ? 'active' : ''}`}>
-        <img src="src/img/header_logo.svg" alt="logo" className="header_logo" />
+        <img src="../../../public/img/header_logo.svg" alt="logo" className="header_logo" />
 
         
         <div className="header_ul">
@@ -31,9 +31,9 @@ export default function Header() {
           <a href="#">+7 (927) 997-12-42</a>
         </div>
         <div className="header_media_logo">
-          <img src="src/img/social media logo 1.svg" alt="telegram" />
-          <img src="src/img/social media logo 2.svg" alt="whatsapp" />
-          <img src="src/img/social media logo 3.svg" alt="youtube" />
+          <img src="../../../public/img/social media logo 1.svg" alt="telegram" />
+          <img src="../../../public/img/social media logo 2.svg" alt="whatsapp" />
+          <img src="../../../public/img/social media logo 3.svg" alt="youtube" />
         </div>
 
         {/* Бургер-меню */}
@@ -62,9 +62,9 @@ export default function Header() {
           </ul>
 
           <div className="mobile-media-logo">
-            <img src="src/img/social media logo 1.svg" alt="telegram" />
-            <img src="src/img/social media logo 2.svg" alt="whatsapp" />
-            <img src="src/img/social media logo 3.svg" alt="youtube" />
+            <img src="../../../public/img/social media logo 1.svg" alt="telegram" />
+            <img src="../../../public/img/social media logo 2.svg" alt="whatsapp" />
+            <img src="../../../public/img/social media logo 3.svg" alt="youtube" />
           </div>
 
           <div className="mobile-telephone">

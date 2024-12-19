@@ -30,7 +30,7 @@ export default function AboutUs () {
                 </div>
                 <Button scrollTo="order_form" width="235px" height="56px"></Button>
             </div>
-            <img className="aboutUs_img" src="src/img/about us.png" alt="aboutus" />
+            <img className="aboutUs_img" src="../../../public/img/about us.png" alt="aboutus" />
             
             
         </div>
